@@ -13,7 +13,7 @@ const SocialButton = () => {
         <div className="border">
         <FontAwesomeIcon icon={faLinkedin} />
         </div>
-      
+    
     </div>
   );
 };

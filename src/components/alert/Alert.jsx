@@ -1,11 +1,15 @@
 
 
-function Alert({ message, type }) {
-  return (
-    <div className={`alert alert-${type}`} role="alert">
-      {message}
+const CustomAlert = ({ info }) => {
+  
+  return <>
+    <div className={info.color}>
+      <p>
+        {info.mensaje}
+      </p>
     </div>
-  );
-}
 
-export default Alert;
+  </>;
+};
+
+export default CustomAlert;
