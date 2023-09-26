@@ -1,13 +1,25 @@
 
 
-const Registro = () => {
-  return (
-    <div>
-        
-     
-     
-     </div>
-  )
-}
+import { useState } from "react";
+import CustomAlert from "../alert/Alert";
+import Formulario from "../formulario/Formulario";
 
-export default Registro
+const Registro = () => {
+
+
+  const [myAlert, setMyAlert] = useState({
+    error: "",
+    mensaje: "",
+    color:""
+  });
+  return (
+    <main>
+      <Formulario setMyAlert={setMyAlert} />
+      
+      {myAlert.mensaje && <CustomAlert info={myAlert} />}
+  
+     </main>
+  );
+};
+
+export default Registro;
