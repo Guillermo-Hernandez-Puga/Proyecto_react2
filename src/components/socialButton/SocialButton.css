@@ -1,0 +1,21 @@
+.fonts{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+
+.border{
+    border: 1px solid rgb(10, 1, 1);
+    border-radius: 50%;
+    height: 9vh;
+    width: 9vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 8px; 
+
+   
+   
+}
