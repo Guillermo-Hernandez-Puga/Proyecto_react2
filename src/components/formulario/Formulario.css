@@ -1,5 +1,13 @@
 .formulario{
     display: flex;
     flex-direction: column-reverse;
-
+    
 }
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+

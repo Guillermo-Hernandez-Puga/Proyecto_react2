@@ -48,7 +48,8 @@ const Formulario = ({ setMyAlert }) => {
 
   return (
     <form className="f-form" onSubmit={validar}>
-      <div className="input-group mb-3">
+      
+      <div className="input-group mb-3 ">
         <input
           type="text"
           name="name"
@@ -58,7 +59,7 @@ const Formulario = ({ setMyAlert }) => {
           value={datos.name}
         />
       </div>
-      <div className="input-group mb-3">
+      <div className="input-group mb-3 ">
         <input
           type="email"
           name="email"
@@ -68,7 +69,7 @@ const Formulario = ({ setMyAlert }) => {
           value={datos.email}
         />
       </div>
-      <div className="input-group mb-3">
+      <div className="input-group mb-3 " >
         <input
           type="password"
           name="password"
@@ -78,7 +79,7 @@ const Formulario = ({ setMyAlert }) => {
           value={datos.password}
         />
       </div>
-      <div className="input-group mb-3">
+      <div className="input-group mb-3 ">
         <input
           type="password"
           name="ConfirmPassword"
@@ -89,6 +90,7 @@ const Formulario = ({ setMyAlert }) => {
         />     
       </div>
       <Envio/>
+     
     </form>
   );
 };

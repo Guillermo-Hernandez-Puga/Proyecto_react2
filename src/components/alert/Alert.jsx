@@ -3,11 +3,13 @@
 const CustomAlert = ({ info }) => {
   
   return <>
-    <div className={info.color}>
+   
+    <div className={info.color} >
       <p>
         {info.mensaje}
       </p>
     </div>
+    
 
   </>;
 };
